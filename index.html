@@ -2,9 +2,7 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <meta name="google" content="notranslate"> -->
     <title>Travel Blog</title>
     <!--Local CSS-->
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
@@ -12,6 +10,8 @@
     <link
         href="https://fonts.googleapis.com/css?family=Cormorant+Upright:500|Josefin+Sans:700|Playfair+Display|Reem+Kufi&display=swap"
         rel="stylesheet">
+    <!--Bootstrap CSS-->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
 </head>
 
 <body>
@@ -19,22 +19,23 @@
         <div id="menu">
             <ul>
                 <li>
-                    <a href="#" class="text-uppercase">home</a>
+                    <a href="#">home</a>
                 </li>
                 <li>
-                    <a href="#" class="text-uppercase">travel blog</a>
+                    <a href="#">travel blog</a>
                 </li>
                 <li>
-                    <a href="#" class="text-uppercase">destinations</a>
+                    <a href="#">destinations</a>
                 </li>
                 <li>
-                    <a href="#" class="text-uppercase">about</a>
+                    <a href="#">about</a>
                 </li>
                 <li>
-                    <a href="#" class="text-uppercase">contact</a>
+                    <a href="#">contact</a>
                 </li>
             </ul>
         </div>
+        <div id="utility"></div>
     </nav>
     <div id="hero"></div>
     <div id="title">
@@ -45,7 +46,7 @@
         <div id="first">
             <h2 id="first-sub" class="text-uppercase">art / lifestyle</h2>
             <h1 id="first-head">Golden Gate Bridge</h1>
-            <div id="bottom-line"></div>
+            <div id="low-line"></div>
             <h3 class="posted">Posted On July 11th, 2019</h3>
         </div>
         <div id="content-left">
@@ -74,23 +75,23 @@
                 <h1 class="head-title">Review Overview</h1>
                 <ul>
                     <li class="review-row">
-                        <h2 class="review-trait text-uppercase">design</h2>
+                        <h2 class="review-trait">design</h2>
                         <div class="review-stars"></div>
                     </li>
                     <li class="review-row">
-                        <h2 class="review-trait text-uppercase">price</h2>
+                        <h2 class="review-trait">price</h2>
                         <div class="review-stars"></div>
                     </li>
                     <li class="review-row">
-                        <h2 class="review-trait text-uppercase">location</h2>
+                        <h2 class="review-trait">location</h2>
                         <div class="review-stars"></div>
                     </li>
                     <li class="review-row">
-                        <h2 class="review-trait text-uppercase">value</h2>
+                        <h2 class="review-trait">value</h2>
                         <div class="review-stars"></div>
                     </li>
                     <li class="review-row">
-                        <h2 class="review-trait text-uppercase">summary</h2>
+                        <h2 class="review-trait">summary</h2>
                         <div class="review-stars"></div>
                     </li>
                 </ul>
@@ -100,7 +101,7 @@
             </div>
             <div id="author-div">
                 <div id="author-img"></div>
-                <h3 id="author-name text-uppercase">author name</h3>
+                <h3 id="author-name">author name</h3>
                 <p id="author-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, illo!</p>
             </div>
             <div id="also-div">
@@ -108,21 +109,20 @@
                 <hr id="also-break">
                 <div id="also-post-container">
                     <div class="also-post">
-                        <img class="also-post-img" src="#"></img>
+                        <img class="also-post-img" src="./assets/img/poppic1.jpg"></img>
                         <h3 class="also-post-head">American Beauty</h3>
                         <p class="also-post-date">July 11th, 2019</p>
                     </div>
                     <div class="also-post">
-                        <img class="also-post-img" src="#"></img>
+                        <img class="also-post-img" src="./assets/img/poppic2.jpg"></img>
                         <h3 class="also-post-head">American Beauty</h3>
                         <p class="also-post-date">July 11th, 2019</p>
                     </div>
                     <div class="also-post">
-                        <img class="also-post-img" src="#"></img>
+                        <img class="also-post-img" src="./assets/img/poppic3.jpg"></img>
                         <h3 class="also-post-head">American Beauty</h3>
                         <p class="also-post-date">July 11th, 2019</p>
                     </div>
-
                 </div>
             </div>
             <h1 class="head-title">Leave a comment</h1>
@@ -137,80 +137,80 @@
             </form>
         </div>
         <div id="content-right">
-            <h3 class="side-head text-uppercase">about me</h3>
-            <img src="#" class="side-img">
+            <h3 class="side-head">about me</h3>
+            <img src="./assets/img/profileright.jpg" class="side-img">
             <p class="side-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, itaque.</p>
-            <img src="#" class="side-img" id="signature">
-            <h3 class="side-head text-uppercase">subscribe</h3>
+            <img src="./assets/img/signature.svg" class="side-img" id="signature">
+            <h3 class="side-head">subscribe</h3>
             <form action="process.php">
-                <input type="text" id="email-box" class="side-text" name="email" placeholder="email address">
+                <input type="text" id="email-box" class="side-text" name="email" placeholder="Email Address">
                 <br>
-                <input type="submit" name="signup" value="signup" id="signup-box" class="side-text">
+                <input type="submit" name="signup" value="Sign Up" id="signup-box" class="side-text">
             </form>
-            <h3 class="side-head text-uppercase">instagram</h3>
+            <h3 class="side-head">instagram</h3>
             <div id="img-grid">
                 <!--first row-->
                 <a href="#" class="full">
                     <div class="square img_1-1"></div>
                 </a>
                 <a href="#" class="full">
-                    <div class="square img_1-1"></div>
+                    <div class="square img_1-2"></div>
                 </a>
                 <a href="#" class="full">
-                    <div class="square img_1-1"></div>
+                    <div class="square img_1-3"></div>
                 </a>
                 <!--second row-->
                 <a href="#" class="full">
                     <div class="square img_2-1"></div>
                 </a>
                 <a href="#" class="full">
-                    <div class="square img_2-1"></div>
+                    <div class="square img_2-2"></div>
                 </a>
                 <a href="#" class="full">
-                    <div class="square img_2-1"></div>
+                    <div class="square img_2-3"></div>
                 </a>
                 <!--third row-->
                 <a href="#" class="full">
                     <div class="square img_3-1"></div>
                 </a>
                 <a href="#" class="full">
-                    <div class="square img_3-1"></div>
+                    <div class="square img_3-2"></div>
                 </a>
                 <a href="#" class="full">
-                    <div class="square img_3-1"></div>
+                    <div class="square img_3-3"></div>
                 </a>
             </div>
-            <h3 class="side-head text-uppercase">follow me on</h3>
+            <h3 class="side-head">follow me on</h3>
             <ul>
                 <li class="right-icon"></li>
                 <li class="right-icon"></li>
                 <li class="right-icon"></li>
             </ul>
-            <h3 class="side-head text-uppercase">popular post</h3>
+            <h3 class="side-head">popular post</h3>
             <div class="pop-post">
-                <img src="#" class="pop-post-img">
+                <img src="./assets/img/grid5.jpg" class="pop-post-img">
                 <h4 class="pop-post-head">This is the Header</h4>
                 <h5 class="pop-post-date">January 1, 2019</h5>
             </div>
             <div class="pop-post">
-                <img src="#" class="pop-post-img">
+                <img src="./assets/img/grid2.jpg" class="pop-post-img">
                 <h4 class="pop-post-head">This is the Header</h4>
                 <h5 class="pop-post-date">January 1, 2019</h5>
             </div>
             <div class="pop-post">
-                <img src="#" class="pop-post-img">
+                <img src="./assets/img/grid9.jpg" class="pop-post-img">
                 <h4 class="pop-post-head">This is the Header</h4>
                 <h5 class="pop-post-date">January 1, 2019</h5>
             </div>
-            <img src="#" id="banner">
-            <h3 class="side-head text-uppercase">categories</h3>
+            <img src="./assets/img/grid10.jpg" id="banner">
+            <h3 class="side-head">categories</h3>
             <ul class="categories-list">
-                <li class="categories text-uppercase">art</li>
-                <li class="categories text-uppercase">travel</li>
-                <li class="categories text-uppercase">food</li>
-                <li class="categories text-uppercase">music</li>
-                <li class="categories text-uppercase">lifestyle</li>
-                <li class="categories text-uppercase">movies</li>
+                <li class="categories">art</li>
+                <li class="categories">travel</li>
+                <li class="categories">food</li>
+                <li class="categories">music</li>
+                <li class="categories">lifestyle</li>
+                <li class="categories">movies</li>
             </ul>
         </div>
     </div>
@@ -244,7 +244,7 @@
         </div>
         <div id="footer-text">
             <p id="foot-copy">
-                    © Copyright Travel Blog Theme - Theme by Benitez
+                © Copyright Travel Blog Theme - Theme by Benitez
             </p>
             <div class="social-icon-foot">
                 facebook
