@@ -6,15 +6,20 @@
     <title>Travel Blog</title>
     <!--Local CSS-->
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+   <!--Hover CSS-->
+   <link href="./assets/css/hover-min.css" rel="stylesheet">
     <!--Google Fonts-->
     <link
         href="https://fonts.googleapis.com/css?family=Cormorant+Upright:500|Josefin+Sans:700|Playfair+Display|Reem+Kufi&display=swap"
         rel="stylesheet">
-    <!--Bootstrap CSS-->
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 
 <body>
+
+    <!--Navbar-->
     <nav>
         <div id="menu">
             <ul>
@@ -37,23 +42,27 @@
         </div>
         <div id="utility"></div>
     </nav>
+
+    <!--Hero Banner-->
     <div id="hero"></div>
     <div id="title">
-        <h2 id="sub" class="text-uppercase">quarterlife</h2>
-        <h2 id="head" class="text-uppercase">buena vista</h2>
+        <h2 id="sub">QUARTERLIFE</h2>
+        <h2 id="head">BUENA VISTA</h2>
     </div>
+
+    <!--Content-->
     <div id="content">
         <div id="first">
-            <h2 id="first-sub" class="text-uppercase">art / lifestyle</h2>
+            <h2 id="first-sub">art / lifestyle</h2>
             <h1 id="first-head">Golden Gate Bridge</h1>
             <div id="low-line"></div>
             <h3 class="posted">Posted On July 11th, 2019</h3>
         </div>
+
+        <!--Left Side Content-->
         <div id="content-left">
-            <p class="para" id="first-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui fuga sunt eum,
-                suscipit vero excepturi, iure atque doloribus et itaque labore veritatis doloremque?</p>
-            <p class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio doloribus laboriosam nisi
-                explicabo natus amet sint delectus qui, iusto labore sit?</p>
+            <p class="para" id="first-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, officia atque odit ducimus amet tempore quis fugit accusamus voluptate vitae fuga, velit aliquam exercitationem illo sunt doloremque blanditiis facere eveniet alias, dolor voluptatibus adipisci! Vitae debitis error facilis accusamus rem?</p>
+            <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo porro ea delectus velit rerum voluptatum ad aspernatur voluptas exercitationem consectetur! Eos quae quisquam officia commodi quaerat dignissimos eligendi ipsa perferendis voluptatibus, alias enim, amet accusamus?</p>
             <blockquote>
                 <div class="quote-box" id="top-line"></div>
                 <p id="quote">
@@ -61,14 +70,13 @@
                     <br>
                     "I like cake and pies.""
                 </p>
-                <div class="quote-box" id="bottom-line"></div>
+                <div class="quote-box" id="low-line"></div>
             </blockquote>
             <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quam quidem blanditiis quod
                 cum cumque nobis enim veniam asperiores accusantium!</p>
             <img src="#" alt="" id="first-img">
             <p class="posted">The Bridge</p>
-            <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, dignissimos porro! Quae porro
-                repudiandae libero quidem dolore asperiores temporibus? Nesciunt.</p>
+            <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste nihil dignissimos dolore, laboriosam a tempora eos harum atque sed. Assumenda, incidunt omnis minima cum adipisci blanditiis corporis quam praesentium deleniti, asperiores, ex fugiat placeat. Sit tempore ipsa debitis, sapiente, rem quia aperiam, asperiores quos ducimus dolores veritatis doloremque maxime alias.</p>
             <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia maxime aperiam laudantium
                 totam dignissimos animi?</p>
             <div id="review-box">
@@ -76,23 +84,53 @@
                 <ul>
                     <li class="review-row">
                         <h2 class="review-trait">design</h2>
-                        <div class="review-stars"></div>
+                        <div class="review-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
                     </li>
                     <li class="review-row">
                         <h2 class="review-trait">price</h2>
-                        <div class="review-stars"></div>
+                        <div class="review-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
                     </li>
                     <li class="review-row">
                         <h2 class="review-trait">location</h2>
-                        <div class="review-stars"></div>
+                        <div class="review-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
                     </li>
                     <li class="review-row">
                         <h2 class="review-trait">value</h2>
-                        <div class="review-stars"></div>
+                        <div class="review-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
                     </li>
                     <li class="review-row">
                         <h2 class="review-trait">summary</h2>
-                        <div class="review-stars"></div>
+                        <div class="review-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -102,7 +140,7 @@
             <div id="author-div">
                 <div id="author-img"></div>
                 <h3 id="author-name">author name</h3>
-                <p id="author-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, illo!</p>
+                <p id="author-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe ipsam incidunt, sint at dolorem quas inventore praesentium sed sit illo qui autem placeat sapiente, ex perferendis cum doloremque impedit dolores voluptatibus fugiat, asperiores nemo. Consequatur?</p>
             </div>
             <div id="also-div">
                 <h3 id="also-head">You might also like</h3>
@@ -136,6 +174,8 @@
                 <button id="comment-button">POST COMMENT</button>
             </form>
         </div>
+
+        <!--Right Side Content-->
         <div id="content-right">
             <h3 class="side-head">about me</h3>
             <img src="./assets/img/profileright.jpg" class="side-img">
@@ -182,9 +222,15 @@
             </div>
             <h3 class="side-head">follow me on</h3>
             <ul>
-                <li class="right-icon"></li>
-                <li class="right-icon"></li>
-                <li class="right-icon"></li>
+                <li class="right-icon">
+                    <i class="fab fa-facebook-f"></i>
+                </li>
+                <li class="right-icon">
+                    <i class="fab fa-twitter"></i>
+                </li>
+                <li class="right-icon">
+                    <i class="fab fa-instagram"></i>
+                </li>
             </ul>
             <h3 class="side-head">popular post</h3>
             <div class="pop-post">
@@ -214,6 +260,8 @@
             </ul>
         </div>
     </div>
+
+    <!--Footer-->
     <div id="footer">
         <div class="img-box">
             <div class="content img_2-1"></div>
@@ -247,9 +295,9 @@
                 © Copyright Travel Blog Theme - Theme by Benitez
             </p>
             <div class="social-icon-foot">
-                facebook
-                twitter
-                IG
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-twitter-square"></i>
+                <i class="fab fa-instagram"></i>
             </div>
         </div>
     </div>
